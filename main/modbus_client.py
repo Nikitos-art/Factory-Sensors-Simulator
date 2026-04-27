@@ -1,0 +1,35 @@
+from pymodbus.client import ModbusTcpClient
+
+class ModbusHandler:
+    def __init__(self, devices):
+        self.devices = devices
+
+    def read_registers(self, device):
+        client = ModbusTcpClient(
+            device["ip"],
+            port=device["port"],
+            timeout=2
+        )
+
+        if not client.connect():
+            print(f"[ERROR] Cannot connect to {device['ip']}:{device['port']}")
+            return None, "DISCONNECTED"
+
+        rr = client.read_holding_registers(
+            address=device["registers"]["temperature"],
+            count=2
+        )
+
+        client.close()
+
+        if rr is None or rr.isError():
+            print(f"[ERROR] Modbus read failed: {rr}")
+            return None, "READ ERROR"
+
+        # Map registers explicitly
+        data = {
+            "temperature": rr.registers[0],
+            "humidity": rr.registers[1],
+        }
+
+        return data, "CONNECTED"

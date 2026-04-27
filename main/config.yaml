@@ -1,0 +1,11 @@
+devices:
+  - name: TemperatureSensor1
+    ip: 127.0.0.1
+    port: 1502
+    unit_id: 1
+    registers:
+      temperature: 0
+      humidity: 1
+    thresholds:
+      temperature: 50
+      humidity: 80
