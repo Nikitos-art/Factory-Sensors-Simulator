@@ -1,16 +1,24 @@
 import tkinter as tk
 
+FONT = ("Arial", 14)
+
 class Dashboard:
     def __init__(self, devices):
         self.root = tk.Tk()
         self.root.title("Factory Monitor")
-
+        
         self.labels = {}
+
+        for i in range(len(devices)):
+            self.root.grid_rowconfigure(i, weight=1)
+
+        for j in range(3):
+            self.root.grid_columnconfigure(j, weight=1)
 
         for i, device in enumerate(devices):
             name = device["name"]
 
-            tk.Label(self.root, text=name, width=20).grid(row=i, column=0)
+            tk.Label(self.root, text=name, font=FONT).grid(row=i, column=0, sticky="nsew", padx=5, pady=5)
 
             status = tk.Label(self.root, text="INIT", width=15)
             status.grid(row=i, column=1)
@@ -25,14 +33,14 @@ class Dashboard:
 
     def update(self, device_name, data, status):
         if data is None:
-            self.labels[device_name]["status"].config(text=status)
+            self.labels[device_name]["status"].config(text=status, fg="red")
             self.labels[device_name]["values"].config(text="---")
         else:
             text = f"T={data['temperature']} H={data['humidity']}"
-            self.labels[device_name]["status"].config(text=status)
+            self.labels[device_name]["status"].config(text=status, fg="green")
             self.labels[device_name]["values"].config(text=text)
 
-        self.root.update_idletasks()
+        #self.root.update()
 
     def run(self):
         self.root.mainloop()

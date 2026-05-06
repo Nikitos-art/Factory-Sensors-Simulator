@@ -17,3 +17,112 @@ timestamp,device,temperature,humidity
 timestamp,device,temperature,humidity
 2025-12-24 22:03:04.612422,TemperatureSensor1,,READ ERROR
 timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-04 22:56:40.503011,TemperatureSensor1,temperature,humidity
+2026-05-04 22:56:45.503758,TemperatureSensor1,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:23:39.118819,temp_sensor_1,temperature,humidity
+2026-05-05 22:23:39.119289,temp_sensor_2,temperature,humidity
+2026-05-05 22:23:39.119639,warehouse_sensor,temperature,humidity
+2026-05-05 22:23:44.120136,temp_sensor_1,temperature,humidity
+2026-05-05 22:23:44.120412,temp_sensor_2,temperature,humidity
+2026-05-05 22:23:44.120987,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:23:51.903256,temp_sensor_1,temperature,humidity
+2026-05-05 22:23:51.903653,temp_sensor_2,temperature,humidity
+2026-05-05 22:23:51.903959,warehouse_sensor,temperature,humidity
+2026-05-05 22:23:56.904455,temp_sensor_1,temperature,humidity
+2026-05-05 22:23:56.905329,temp_sensor_2,temperature,humidity
+2026-05-05 22:23:56.905451,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:34:12.512769,temp_sensor_1,temperature,humidity
+2026-05-05 22:34:12.513411,temp_sensor_2,temperature,humidity
+2026-05-05 22:34:12.513864,warehouse_sensor,temperature,humidity
+2026-05-05 22:34:17.514272,temp_sensor_1,temperature,humidity
+2026-05-05 22:34:17.514718,temp_sensor_2,temperature,humidity
+2026-05-05 22:34:17.514850,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:36:33.493356,temp_sensor_1,temperature,humidity
+2026-05-05 22:36:33.493714,temp_sensor_2,temperature,humidity
+2026-05-05 22:36:33.493990,warehouse_sensor,temperature,humidity
+2026-05-05 22:36:38.494508,temp_sensor_1,temperature,humidity
+2026-05-05 22:36:38.495191,temp_sensor_2,temperature,humidity
+2026-05-05 22:36:38.495320,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:39:01.732261,temp_sensor_1,temperature,humidity
+2026-05-05 22:39:01.732601,temp_sensor_2,temperature,humidity
+2026-05-05 22:39:01.732862,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:40:04.341206,temp_sensor_1,temperature,humidity
+2026-05-05 22:40:04.341744,temp_sensor_2,temperature,humidity
+2026-05-05 22:40:04.342091,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:40:12.402100,temp_sensor_1,temperature,humidity
+2026-05-05 22:40:12.402510,temp_sensor_2,temperature,humidity
+2026-05-05 22:40:12.402831,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 22:43:49.784895,temp_sensor_1,temperature,humidity
+2026-05-05 22:43:49.785482,temp_sensor_2,temperature,humidity
+2026-05-05 22:43:49.785901,warehouse_sensor,temperature,humidity
+2026-05-05 22:43:54.786498,temp_sensor_1,temperature,humidity
+2026-05-05 22:43:54.787140,temp_sensor_2,temperature,humidity
+2026-05-05 22:43:54.787339,warehouse_sensor,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 23:07:20.997188,temp_sensor_1,temperature,humidity
+2026-05-05 23:07:20.998536,temp_sensor_2,temperature,humidity
+2026-05-05 23:07:26.001997,temp_sensor_1,temperature,humidity
+2026-05-05 23:07:26.003560,temp_sensor_2,temperature,humidity
+2026-05-05 23:07:31.007033,temp_sensor_1,temperature,humidity
+2026-05-05 23:07:31.008596,temp_sensor_2,temperature,humidity
+2026-05-05 23:07:36.011515,temp_sensor_1,temperature,humidity
+2026-05-05 23:07:36.012727,temp_sensor_2,temperature,humidity
+2026-05-05 23:07:41.017561,temp_sensor_1,temperature,humidity
+2026-05-05 23:07:41.018763,temp_sensor_2,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 23:12:45.465718,temp_sensor_1,temperature,humidity
+2026-05-05 23:12:45.467076,temp_sensor_2,temperature,humidity
+2026-05-05 23:12:50.470911,temp_sensor_1,temperature,humidity
+2026-05-05 23:12:50.472598,temp_sensor_2,temperature,humidity
+2026-05-05 23:12:55.475647,temp_sensor_1,temperature,humidity
+2026-05-05 23:12:55.477080,temp_sensor_2,temperature,humidity
+2026-05-05 23:13:00.480008,temp_sensor_1,temperature,humidity
+2026-05-05 23:13:00.481109,temp_sensor_2,temperature,humidity
+2026-05-05 23:13:05.485447,temp_sensor_1,temperature,humidity
+2026-05-05 23:13:05.486396,temp_sensor_2,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 23:20:14.665666,temp_sensor_1,temperature,humidity
+2026-05-05 23:20:14.667561,temp_sensor_2,temperature,humidity
+2026-05-05 23:20:19.671696,temp_sensor_1,temperature,humidity
+2026-05-05 23:20:19.673529,temp_sensor_2,temperature,humidity
+2026-05-05 23:20:24.678238,temp_sensor_1,temperature,humidity
+2026-05-05 23:20:24.679927,temp_sensor_2,temperature,humidity
+2026-05-05 23:20:29.683487,temp_sensor_1,temperature,humidity
+2026-05-05 23:20:29.685050,temp_sensor_2,temperature,humidity
+timestamp,device,temperature,humidity
+2026-05-05 23:22:04.310194,temp_sensor_1,temperature,humidity
+2026-05-05 23:22:04.311815,temp_sensor_2,temperature,humidity
+2026-05-05 23:22:04.313328,warehouse_sensor,temperature,humidity
+2026-05-05 23:22:09.315991,temp_sensor_1,temperature,humidity
+2026-05-05 23:22:09.318255,temp_sensor_2,temperature,humidity
+2026-05-05 23:22:09.320159,warehouse_sensor,temperature,humidity
+2026-05-05 23:22:14.322832,temp_sensor_1,temperature,humidity
+2026-05-05 23:22:14.324393,temp_sensor_2,temperature,humidity
+2026-05-05 23:22:14.340954,warehouse_sensor,temperature,humidity
+2026-05-05 23:22:19.343389,temp_sensor_1,temperature,humidity
+2026-05-05 23:22:19.344829,temp_sensor_2,temperature,humidity
+2026-05-05 23:22:19.347983,warehouse_sensor,temperature,humidity
+2026-05-05 23:22:24.350158,temp_sensor_1,temperature,humidity
+2026-05-05 23:22:24.351814,temp_sensor_2,temperature,humidity
+2026-05-05 23:22:24.353056,warehouse_sensor,temperature,humidity
+2026-05-05 23:22:29.355228,temp_sensor_1,temperature,humidity
+2026-05-05 23:22:29.356684,temp_sensor_2,temperature,humidity
+2026-05-05 23:22:29.358349,warehouse_sensor,temperature,humidity
